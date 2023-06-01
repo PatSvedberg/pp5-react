@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+import "./App.css";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 function App() {
-  return (
-    <div className="App">
-      <FunctionalGreetingWithProps />
-    </div>
-  );
+  return <div className="App">
+      <MethodsAsPropsParent />
+  </div>;
 }
 
 export default App;
