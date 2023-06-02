@@ -1,10 +1,10 @@
 import "./App.css";
-import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import { SearchBar3 } from "./components/SearchBar3";
 
 function App() {
   return <div className="App">
-      <LifeCyclesCWU />
-    </div>;
+      <SearchBar3 />
+  </div>;
 }
 
 export default App;
